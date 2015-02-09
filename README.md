@@ -6,6 +6,10 @@ Written by Ronald Kinard (https://github.com/Furyhunter).
 
 This does not include a CPack configuration file for generating distributable packages, but I imagine it should be easy enough to make one.
 
+## License
+
+This work is released in the public domain.
+
 ## Requirements
 
 An OGRE 1.9 SDK installation, either built from source or downloaded from the OGRE website.
