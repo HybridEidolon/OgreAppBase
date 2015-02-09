@@ -50,7 +50,7 @@ static Application * app = nullptr;
 											selector:@selector(renderOneFrame)
 											userInfo:nil
 											 repeats:YES];
-	OSXCocoaWindow * window = static_cast<OSXCocoaWindow*>(app->mRenderWindow.get());
+	OSXCocoaWindow * window = static_cast<OSXCocoaWindow*>(app->mRenderWindow);
 	NSWindow * nswindow = window->ogreWindow();
 	[[nswindow standardWindowButton:NSWindowCloseButton] setEnabled:YES];
 	[[nswindow standardWindowButton:NSWindowMiniaturizeButton] setEnabled:YES];
