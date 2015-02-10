@@ -47,7 +47,7 @@ static Application * app = nullptr;
 
 	mTimer = [NSTimer scheduledTimerWithTimeInterval:(NSTimeInterval)(1.0f / 60.0f) * mLastFrameTime
 											  target:(AppDelegate*)self
-											selector:@selector(renderOneFrame)
+											selector:@selector(renderOneFrame:)
 											userInfo:nil
 											 repeats:YES];
 	OSXCocoaWindow * window = static_cast<OSXCocoaWindow*>(app->mRenderWindow);
