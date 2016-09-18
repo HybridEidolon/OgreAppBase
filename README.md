@@ -2,7 +2,7 @@
 
 This is a base for OGRE projects using CMake. The code is organized into modules, a Core, and a set of Interface modules for each platform supported.
 
-Written by Ronald Kinard (https://github.com/Furyhunter).
+Written by Ronald Kinard (https://github.com/HybridEidolon).
 
 This does not include a CPack configuration file for generating distributable packages, but I imagine it should be easy enough to make one.
 
